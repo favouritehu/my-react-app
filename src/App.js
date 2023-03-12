@@ -13,14 +13,14 @@ function App() {
         );
 
         if (!response.ok) {
-          throw new Error("Unable to fetch the data");
+          throw new Error("Unablee to fetch the data");
         }
 
         const data = await response.json();
 
         // console.log(data);
          const loadedMeals = [];
-
+m
          for (const key in data) {
            loadedMeals.push({
              id: key,
