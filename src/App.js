@@ -20,7 +20,6 @@ function App() {
 
         // console.log(data);
          const loadedMeals = [];
-m
          for (const key in data) {
            loadedMeals.push({
              id: key,
